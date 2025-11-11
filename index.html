@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlossaContact Lab | Language Contact Research</title>
+    <meta name="description" content="Research laboratory focusing on language contact, interference, and multilingualism. National and Kapodistrian University of Athens.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root {
+            --primary: #00695C;
+            --primary-light: #00897B;
+            --accent: #FF6F00;
+            --text-dark: #1f2937;
+            --text-light: #6b7280;
+            --bg-light: #E0F2F1;
+        }
+        body { font-family: 'Inter', sans-serif; color: var(--text-dark); line-height: 1.6; }
+        
+        /* Password Protection */
+        .password-overlay {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: linear-gradient(135deg, rgba(0,105,92,0.97) 0%, rgba(0,137,123,0.97) 100%);
+            z-index: 20000; display: flex; align-items: center; justify-content: center;
+        }
+        .password-box {
+            background: white; padding: 3rem; border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3); max-width: 400px; width: 90%; text-align: center;
+        }
+        .password-box h2 { color: var(--primary); margin-bottom: 1rem; font-size: 1.8rem; }
+        .password-box p { color: #666; margin-bottom: 2rem; font-size: 0.95rem; }
+        .password-box input {
+            width: 100%; padding: 1rem; border: 2px solid #e0e0e0; border-radius: 10px;
+            font-size: 1rem; margin-bottom: 1rem;
+        }
+        .password-box input:focus { outline: none; border-color: var(--primary); }
+        .password-box button {
+            width: 100%; padding: 1rem; background: var(--primary); color: white;
+            border: none; border-radius: 10px; font-size: 1rem; font-weight: 600; cursor: pointer;
+        }
+        .password-box button:hover { background: var(--primary-light); }
+        .password-error { color: #d32f2f; font-size: 0.9rem; margin-top: 1rem; display: none; }
+        .password-overlay.hidden { display: none; }
+        
+        /* Hero */
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+            color: white; padding: 8rem 2rem 6rem; text-align: center;
+        }
+        .hero h1 { font-size: 3rem; font-weight: 900; margin-bottom: 1rem; }
+        .hero .subtitle { font-size: 1.4rem; opacity: 0.95; }
+        
+        /* Container */
+        .container { max-width: 1200px; margin: 0 auto; padding: 4rem 2rem; }
+        .section { margin-bottom: 4rem; }
+        .section-title { font-size: 2rem; font-weight: 800; color: var(--primary); margin-bottom: 1.5rem; }
+        
+        /* Research Areas */
+        .research-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem; margin: 3rem 0;
+        }
+        .research-card {
+            background: var(--bg-light); border-radius: 16px; padding: 2rem;
+            border-top: 4px solid var(--accent);
+        }
+        .research-card h3 { color: var(--primary); margin-bottom: 1rem; font-size: 1.3rem; }
+        
+        /* Team */
+        .team-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem; margin: 3rem 0;
+        }
+        .team-member {
+            background: white; border-radius: 12px; padding: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1); text-align: center;
+        }
+        .team-member h4 { color: var(--primary); margin-bottom: 0.5rem; }
+        .team-role { color: var(--accent); font-weight: 600; font-size: 0.9rem; }
+        
+        /* Footer */
+        footer {
+            background: var(--text-dark); color: white;
+            padding: 3rem 2rem; text-align: center;
+        }
+        footer a { color: var(--accent); text-decoration: none; }
+        
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+    <!-- Password Protection -->
+    <div class="password-overlay" id="passwordOverlay">
+        <div class="password-box">
+            <h2>🔐 Secure Access</h2>
+            <p>GlossaContact Research Lab</p>
+            <input type="password" id="passwordInput" placeholder="Enter access code" onkeypress="if(event.key==='Enter')checkPassword()">
+            <button onclick="checkPassword()">Access Lab</button>
+            <div class="password-error" id="passwordError">Incorrect password</div>
+        </div>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero">
+        <h1>GlossaContact Lab</h1>
+        <div class="subtitle">Language Contact Research Laboratory</div>
+    </section>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- About -->
+        <section class="section">
+            <h2 class="section-title">About the Laboratory</h2>
+            <p style="font-size: 1.1rem; line-height: 1.8;">
+                The <strong>GlossaContact Laboratory</strong> is a research unit dedicated to the study of 
+                language contact phenomena, linguistic interference, and multilingualism. Based at the 
+                <strong>National and Kapodistrian University of Athens</strong>, our lab investigates how 
+                languages influence each other through contact, borrowing, and code-switching.
+            </p>
+        </section>
+
+        <!-- Research Areas -->
+        <h2 class="section-title">Research Areas</h2>
+        <div class="research-grid">
+            <div class="research-card">
+                <h3>Language Contact</h3>
+                <p>Investigating patterns of linguistic influence between languages in contact situations</p>
+            </div>
+            
+            <div class="research-card">
+                <h3>Linguistic Interference</h3>
+                <p>Analyzing transfer phenomena and cross-linguistic influence in multilingual contexts</p>
+            </div>
+            
+            <div class="research-card">
+                <h3>Code-Switching</h3>
+                <p>Studying bilingual discourse and the alternation between languages in communication</p>
+            </div>
+            
+            <div class="research-card">
+                <h3>Loanword Integration</h3>
+                <p>Examining how borrowed lexical items are adapted into recipient languages</p>
+            </div>
+            
+            <div class="research-card">
+                <h3>Historical Contact</h3>
+                <p>Diachronic analysis of language contact in historical corpora</p>
+            </div>
+            
+            <div class="research-card">
+                <h3>Computational Methods</h3>
+                <p>Developing AI and corpus-based tools for contact linguistics research</p>
+            </div>
+        </div>
+
+        <!-- Projects -->
+        <section class="section">
+            <h2 class="section-title">Current Projects</h2>
+            <div style="background: var(--bg-light); padding: 2rem; border-radius: 16px; margin-bottom: 2rem;">
+                <h3 style="color: var(--primary); margin-bottom: 1rem;">Contact Detection in Diachronic Corpora</h3>
+                <p>
+                    Developing computational methods to automatically identify and analyze language contact 
+                    phenomena in historical texts. This project integrates with the CVL-CDSAML corpus and 
+                    utilizes machine learning for pattern detection.
+                </p>
+            </div>
+            
+            <div style="background: white; padding: 2rem; border-radius: 16px; border: 2px solid var(--bg-light);">
+                <h3 style="color: var(--primary); margin-bottom: 1rem;">Multilingual Corpus Analysis</h3>
+                <p>
+                    Comparative study of contact-induced change across multiple language pairs, with focus 
+                    on Greek-English, Greek-Latin, and other Indo-European interactions.
+                </p>
+            </div>
+        </section>
+
+        <!-- Team -->
+        <section class="section">
+            <h2 class="section-title">Research Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <h4>Prof. Nikolaos Lavidas</h4>
+                    <div class="team-role">Laboratory Director</div>
+                    <p style="margin-top: 1rem; font-size: 0.9rem; color: var(--text-light);">
+                        Specializing in historical syntax, language contact, and corpus methodology
+                    </p>
+                </div>
+                
+                <div class="team-member">
+                    <h4>Research Associates</h4>
+                    <div class="team-role">Contact Linguistics</div>
+                    <p style="margin-top: 1rem; font-size: 0.9rem; color: var(--text-light);">
+                        Postdoctoral researchers and PhD candidates working on contact phenomena
+                    </p>
+                </div>
+                
+                <div class="team-member">
+                    <h4>Collaborators</h4>
+                    <div class="team-role">International Network</div>
+                    <p style="margin-top: 1rem; font-size: 0.9rem; color: var(--text-light);">
+                        Partners from universities across Europe and North America
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resources -->
+        <section class="section">
+            <h2 class="section-title">Resources & Links</h2>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                <a href="https://athdgc.github.io/" target="_blank" style="background: var(--primary); color: white; padding: 1rem 2rem; border-radius: 10px; text-decoration: none; font-weight: 600;">
+                    🏛️ AthDGC Research Network
+                </a>
+                <a href="https://github.com/nlavidas/GlossaContactLab" target="_blank" style="background: var(--text-dark); color: white; padding: 1rem 2rem; border-radius: 10px; text-decoration: none; font-weight: 600;">
+                    💻 GitHub Repository
+                </a>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section">
+            <h2 class="section-title">Contact Information</h2>
+            <div style="background: var(--bg-light); padding: 2rem; border-radius: 16px;">
+                <p><strong>Laboratory Director:</strong> Prof. Nikolaos Lavidas</p>
+                <p><strong>Institution:</strong> National and Kapodistrian University of Athens</p>
+                <p><strong>Department:</strong> English Language and Literature</p>
+                <p><strong>Email:</strong> <a href="mailto:nlavidas@enl.uoa.gr" style="color: var(--primary);">nlavidas@enl.uoa.gr</a></p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 GlossaContact Laboratory | National and Kapodistrian University of Athens</p>
+        <p style="margin-top: 1rem;">
+            <a href="https://athdgc.github.io/">AthDGC Research Network</a> | 
+            <a href="https://en.uoa.gr/">University of Athens</a>
+        </p>
+    </footer>
+
+    <script>
+        const VALID_PASSWORDS = ['nlavi112278'];
+        function checkPassword() {
+            const input = document.getElementById('passwordInput').value;
+            if (VALID_PASSWORDS.includes(input.toLowerCase())) {
+                sessionStorage.setItem('gclab_authenticated', 'true');
+                document.getElementById('passwordOverlay').classList.add('hidden');
+                document.getElementById('passwordError').style.display = 'none';
+            } else {
+                document.getElementById('passwordError').style.display = 'block';
+                document.getElementById('passwordInput').value = '';
+                document.getElementById('passwordInput').focus();
+            }
+        }
+        if (sessionStorage.getItem('gclab_authenticated') === 'true') {
+            document.getElementById('passwordOverlay').classList.add('hidden');
+        }
+    </script>
+</body>
+</html>
