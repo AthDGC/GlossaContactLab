@@ -231,16 +231,10 @@
 
         footer .container {
             padding: 2rem;
-            text-align: center;
         }
 
         footer a {
             color: #1a4d8f;
-            text-decoration: none;
-        }
-        
-        footer a:hover {
-            text-decoration: underline;
         }
     </style>
 </head>
@@ -278,10 +272,6 @@
     <main>
         <section id="about" class="container">
             <h2>About the Laboratory</h2>
-            <div style="margin-bottom: 3rem;">
-                <img src="image_1.png" alt="Library Interior" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 6px 18px rgba(0,0,0,0.12);">
-                <p class="image-credit" style="text-align: right;">Image source: User Provided</p>
-            </div>
 
             <div class="intro">
                 <p>The GlossaContact Laboratory specializes in the study of language contact phenomena through the lens
@@ -294,6 +284,12 @@
                     for syntactic and lexical borrowing. We employ corpus-based methods to trace the development of
                     contact phenomena in written registers and distinguish translation effects from natural language
                     change.</p>
+            </div>
+
+            <div class="intro" style="display: grid; grid-template-columns: 1fr; gap: 1rem;">
+                <img src="image_2.png" alt="Historical Library Interior"
+                    style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 6px 18px rgba(0,0,0,0.12);">
+                <p style="font-size: 0.95rem; color: #555; margin: 0;">Image source: User Provided</p>
             </div>
 
             <h3>Laboratory Information</h3>
@@ -344,9 +340,11 @@
 
         <section id="research" class="container">
             <h2>Research Focus Areas</h2>
-            <div style="margin-bottom: 3rem;">
-                <img src="image_4.png" alt="Historical Computational Linguistics Laboratory" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 6px 18px rgba(0,0,0,0.12);">
-                <p class="image-credit" style="text-align: right;">Image source: AI Generated</p>
+
+            <div class="intro" style="display: grid; grid-template-columns: 1fr; gap: 1rem; margin-bottom: 3rem;">
+                <img src="image_7.png" alt="Computational Analysis of Historical Texts"
+                    style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 6px 18px rgba(0,0,0,0.12);">
+                <p style="font-size: 0.95rem; color: #555; margin: 0;">Image source: AI Generated</p>
             </div>
 
             <div class="research-areas">
@@ -618,7 +616,10 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 GlossaContact Laboratory. National and Kapodistrian University of Athens.</p>
+            <p>GlossaContact Laboratory</p>
+            <p>National and Kapodistrian University of Athens</p>
+            <p style="margin-top: 1rem;">Licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY
+                    4.0</a></p>
         </div>
     </footer>
 </body>
