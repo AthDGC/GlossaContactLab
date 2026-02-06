@@ -196,6 +196,8 @@
             border: 1px solid #ebe3d6;
             border-radius: 8px;
             font-size: 1rem;
+            display: flex;
+            flex-direction: column;
         }
 
         .research-area h3 {
@@ -236,6 +238,20 @@
         footer a {
             color: #1a4d8f;
         }
+
+        /* New style for the grid of generated images */
+        .generated-images-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+        }
+        .generated-images-grid img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
     </style>
 </head>
 
@@ -272,27 +288,11 @@
     <main>
         <section id="about" class="container">
             <h2>About the Laboratory</h2>
-            <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(350px,1fr)); gap:2rem; margin:3rem 0;">
-                <div style="border-radius:12px; overflow:hidden; box-shadow:0 4px 12px rgba(0,0,0,0.1);">
-                    <img src="https://images.unsplash.com/photo-1604866830893-c13cafa515d5?auto=format&fit=crop&w=800&q=80" 
-                         alt="Ancient Manuscript Analysis" style="width:100%; height:300px; object-fit:cover;">
-                </div>
-                <div style="border-radius:12px; overflow:hidden; box-shadow:0 4px 12px rgba(0,0,0,0.1);">
-                    <img src="https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=800&q=80" 
-                         alt="Digital Humanities Research" style="width:100%; height:300px; object-fit:cover;">
-                </div>
-                <div style="border-radius:12px; overflow:hidden; box-shadow:0 4px 12px rgba(0,0,0,0.1);">
-                    <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=800&q=80" 
-                         alt="Corpus-based Research" style="width:100%; height:300px; object-fit:cover;">
-                </div>
-                <div style="border-radius:12px; overflow:hidden; box-shadow:0 4px 12px rgba(0,0,0,0.1);">
-                    <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80" 
-                         alt="Historical Linguistics" style="width:100%; height:300px; object-fit:cover;">
-                </div>
-                <div style="border-radius:12px; overflow:hidden; box-shadow:0 4px 12px rgba(0,0,0,0.1);">
-                    <img src="https://images.unsplash.com/photo-1526285759904-71d1170ed2ac?auto=format&fit=crop&w=800&q=80" 
-                         alt="Translation Studies" style="width:100%; height:300px; object-fit:cover;">
-                </div>
+
+            <div class="intro" style="display: grid; grid-template-columns: 1fr; gap: 1rem;">
+                <img src="pexels-polina-zimmerman-3747509.jpg" alt="Historical Computational Linguistics Lab"
+                    style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 6px 18px rgba(0,0,0,0.12);">
+                <p style="font-size: 0.95rem; color: #555; margin: 0;">Image source: Pexels</p>
             </div>
 
             <div class="intro">
@@ -306,14 +306,6 @@
                     for syntactic and lexical borrowing. We employ corpus-based methods to trace the development of
                     contact phenomena in written registers and distinguish translation effects from natural language
                     change.</p>
-            </div>
-
-            <div class="intro" style="display: grid; grid-template-columns: 1fr; gap: 1rem;">
-                <img src="assets/images/modern_library.jpg" alt="Modern research and corpora"
-                    style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 6px 18px rgba(0,0,0,0.12);">
-                <p style="font-size: 0.95rem; color: #555; margin: 0;">Image source: <a
-                        href="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f" target="_blank"
-                        rel="noopener noreferrer">Unsplash</a></p>
             </div>
 
             <h3>Laboratory Information</h3>
@@ -364,6 +356,9 @@
 
         <section id="research" class="container">
             <h2>Research Focus Areas</h2>
+            <div class="generated-images-grid">
+                <img src="image_0.png" alt="Historical Computational Linguistics Laboratory Research Visuals">
+            </div>
 
             <div class="research-areas">
                 <div class="research-area">
