@@ -196,8 +196,6 @@
             border: 1px solid #ebe3d6;
             border-radius: 8px;
             font-size: 1rem;
-            display: flex;
-            flex-direction: column;
         }
 
         .research-area h3 {
@@ -233,24 +231,16 @@
 
         footer .container {
             padding: 2rem;
+            text-align: center;
         }
 
         footer a {
             color: #1a4d8f;
+            text-decoration: none;
         }
-
-        /* New style for the grid of generated images */
-        .generated-images-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-            gap: 1.5rem;
-            margin-bottom: 3rem;
-        }
-        .generated-images-grid img {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        
+        footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -288,11 +278,9 @@
     <main>
         <section id="about" class="container">
             <h2>About the Laboratory</h2>
-
-            <div class="intro" style="display: grid; grid-template-columns: 1fr; gap: 1rem;">
-                <img src="pexels-polina-zimmerman-3747509.jpg" alt="Historical Computational Linguistics Lab"
-                    style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 6px 18px rgba(0,0,0,0.12);">
-                <p style="font-size: 0.95rem; color: #555; margin: 0;">Image source: Pexels</p>
+            <div style="margin-bottom: 3rem;">
+                <img src="image_1.png" alt="Library Interior" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 6px 18px rgba(0,0,0,0.12);">
+                <p class="image-credit" style="text-align: right;">Image source: User Provided</p>
             </div>
 
             <div class="intro">
@@ -356,8 +344,9 @@
 
         <section id="research" class="container">
             <h2>Research Focus Areas</h2>
-            <div class="generated-images-grid">
-                <img src="image_0.png" alt="Historical Computational Linguistics Laboratory Research Visuals">
+            <div style="margin-bottom: 3rem;">
+                <img src="image_4.png" alt="Historical Computational Linguistics Laboratory" style="width: 100%; height: auto; border-radius: 8px; box-shadow: 0 6px 18px rgba(0,0,0,0.12);">
+                <p class="image-credit" style="text-align: right;">Image source: AI Generated</p>
             </div>
 
             <div class="research-areas">
@@ -621,8 +610,6 @@
                         style="padding: 3rem; background: white; border: 4px solid #1a4d8f; border-radius: 12px; box-shadow: 0 8px 16px rgba(0,0,0,0.1); text-align: center;">
                         <img src="assets/logos/logo_ekpa_new.png" alt="University of Athens"
                             style="height: 90px; width: auto; object-fit: contain; margin-bottom: 1.5rem;">
-                        <p style="font-weight: 800; color: #1a4d8f; font-size: 1.6rem; margin: 0; line-height: 1.4;">
-                            NATIONAL AND KAPODISTRIAN<br>UNIVERSITY OF ATHENS</p>
                     </div>
                 </a>
             </div>
@@ -631,10 +618,7 @@
 
     <footer>
         <div class="container">
-            <p>GlossaContact Laboratory</p>
-            <p>National and Kapodistrian University of Athens</p>
-            <p style="margin-top: 1rem;">Licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY
-                    4.0</a></p>
+            <p>&copy; 2024 GlossaContact Laboratory. National and Kapodistrian University of Athens.</p>
         </div>
     </footer>
 </body>
