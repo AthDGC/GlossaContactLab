@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Workshop: New Trends in Diachronic and Theoretical Linguistics</title>
+  <meta name="description" content="MA Seminars, English Language, Linguistics and Translation. Workshop with invited talks and young researchers at NKUA on May 28, 2026." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#f5f1ea;--panel:#fffdf9;--text:#1e1b18;--muted:#6e675e;--line:#ded6cc;--accent:#7a1f3b;--accent2:#a87b2f;--soft:#efe6dc;--soft2:#f6efe6;--shadow:0 10px 30px rgba(0,0,0,.07);--r:18px}
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.65} a{color:inherit}
+    .wrap{max-width:1100px;margin:0 auto;padding:0 20px} header{position:sticky;top:0;background:rgba(245,241,234,.9);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);z-index:10}
+    .top{display:flex;justify-content:space-between;align-items:center;padding:14px 0;gap:16px}.brand{font-weight:700;letter-spacing:.02em}.brand small{display:block;color:var(--muted);font-weight:500}
+    .pill{display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border-radius:999px;background:var(--soft);color:var(--accent);font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;border:1px solid #e2d3db}
+    .hero{padding:54px 0 28px;border-bottom:1px solid var(--line)} .eyebrow{display:block;margin-bottom:14px} h1,h2,h3{font-family:"Cormorant Garamond",serif;line-height:1.05;margin:0}
+    h1{font-size:clamp(2.4rem,5vw,4.8rem);max-width:12ch;margin:10px 0 18px} .lede{max-width:70ch;color:var(--muted);font-size:1.05rem}
+    .meta{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px} .meta div{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:12px 14px;box-shadow:var(--shadow);min-width:220px}
+    .meta strong{display:block;color:var(--text)} .meta span{color:var(--muted);font-size:.95rem}
+    section{padding:34px 0} .sectionhead{display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap;margin-bottom:18px}
+    .sectionhead h2{font-size:clamp(1.8rem,3vw,2.7rem)} .sectionhead p{margin:0;color:var(--muted);max-width:62ch}
+    .schedule{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:18px;box-shadow:var(--shadow)}
+    .slot{display:grid;grid-template-columns:92px 1fr;gap:16px;padding:14px 12px;border-radius:14px} .slot + .slot{border-top:1px solid #efe8df}
+    .time{font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums}
+    .tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;border-radius:999px;padding:4px 8px;margin-bottom:8px}
+    .inv{background:#efe0e7;color:var(--accent)} .young{background:#efe6cf;color:var(--accent2)} .break{background:#ece7e2;color:#7a6e63}
+    .grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+    .card{background:var(--panel);border:1px solid var(--line);border-radius:var(--r);padding:22px;box-shadow:var(--shadow);position:relative;overflow:hidden}
+    .card:before{content:"";position:absolute;inset:0 0 auto 0;height:4px;background:linear-gradient(90deg,var(--accent),#b66d88)}
+    .speaker{font-family:"Cormorant Garamond",serif;font-size:1.65rem;font-weight:700;margin:0 0 4px} .aff{color:var(--muted);font-size:.95rem;margin-bottom:10px}
+    .title{font-family:"Cormorant Garamond",serif;font-size:1.35rem;font-style:italic;color:var(--accent);margin:10px 0 14px} .abs{color:#524a42} .abs p{margin:0}
+    .youngwrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+    .ycard{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px;box-shadow:var(--shadow)}
+    .yname{font-family:"Cormorant Garamond",serif;font-size:1.45rem;font-weight:700;margin:0 0 4px} .ytitle{font-style:italic;color:var(--accent);margin:0 0 10px} .ytext{margin:0;color:var(--muted)}
+    .venue,.close{background:linear-gradient(180deg,var(--soft2),#f8f4ee);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+    .venue .inner,.close .inner{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;align-items:center;padding:18px 0}
+    .venue h3{font-family:"Cormorant Garamond",serif;font-size:1.8rem;margin:0 0 4px} .venue p,.close p{margin:0;color:var(--muted)}
+    footer{padding:20px 0 34px;color:var(--muted);font-size:.95rem} .foot{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:16px}
+    @media (max-width:800px){.grid2{grid-template-columns:1fr}.slot{grid-template-columns:1fr}.meta div{min-width:unset;flex:1 1 100%}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap top">
+      <div class="brand">MA Seminars<small>English Language, Linguistics and Translation</small></div>
+      <a class="pill" href="https://athdgc.github.io/GlossaContactLab/">Glossa Contact Lab</a>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <span class="pill eyebrow">MA Seminars · English Language, Linguistics and Translation</span>
+        <h1>Workshop: New Trends in Diachronic and Theoretical Linguistics</h1>
+        <p class="lede">A workshop with invited talks and young researchers, held as part of the MA Seminar series at the School of Philosophy, NKUA.</p>
+        <div class="meta">
+          <div><strong>Thursday, May 28, 2026</strong><span>12:00–16:30</span></div>
+          <div><strong>Conference Room</strong><span>Library of the School of Philosophy</span></div>
+          <div><strong>Closing social</strong><span>Ice cream and/or coffee at Zografou</span></div>
+        </div>
+      </div>
+    </section>
+    <section class="venue">
+      <div class="wrap inner">
+        <div>
+          <h3>Venue</h3>
+          <p>The invited lectures will be held in the Conference Room next to the amphitheatre of the Library of the School of Philosophy.</p>
+        </div>
+        <div class="pill">Part of the MA Seminars series</div>
+      </div>
+    </section>
+    <section>
+      <div class="wrap">
+        <div class="sectionhead">
+          <div>
+            <h2>Programme</h2>
+            <p>Invited talks first, followed by young researchers' presentations and a short social gathering at the end.</p>
+          </div>
+        </div>
+        <div class="schedule">
+          <div class="slot"><div class="time">12:00</div><div><span class="tag break">Opening</span><div>Welcome and introduction</div></div></div>
+          <div class="slot"><div class="time">12:15</div><div><span class="tag inv">Invited talk</span><div><strong>Alexandru Nicolae</strong> (University of Bucharest) — “The Syntax of Negation in Romanian from a Comparative Perspective”</div></div></div>
+          <div class="slot"><div class="time">13:15</div><div><span class="tag inv">Invited talk</span><div><strong>Adina Dragomirescu</strong> (University of Bucharest) — “The Syntax of Istro-Romanian: Between Romance and Slavonic”</div></div></div>
+          <div class="slot"><div class="time">14:00</div><div><span class="tag break">Break</span><div>Short break</div></div></div>
+          <div class="slot"><div class="time">14:30</div><div><span class="tag young">Young researcher</span><div><strong>Maria Episkopou</strong> — “Beowulf, its translations and the diachronic importance of storytelling”</div></div></div>
+          <div class="slot"><div class="time">14:50</div><div><span class="tag young">Young researcher</span><div><strong>Georgia Stavrianopoulou</strong> — “From Abject to Subject: The Diachrony of Monstrous Frames in Fairytale Retellings”</div></div></div>
+          <div class="slot"><div class="time">15:10</div><div><span class="tag break">Break</span><div>Short break</div></div></div>
+          <div class="slot"><div class="time">15:20</div><div><span class="tag young">Young researcher</span><div><strong>Anastasia Tsiropina</strong> — “The diachrony of dative Object-Experiencer psych-verb constructions”</div></div></div>
+          <div class="slot"><div class="time">15:40</div><div><span class="tag young">Young researcher</span><div><strong>Eleni Plakoutsi</strong> — “Byzantine high and low registers: challenges for Early Medieval Greek studies”</div></div></div>
+          <div class="slot"><div class="time">16:00</div><div><span class="tag young">Young researcher</span><div><strong>Sophia Chionidi</strong> — “Computational Approaches to the Romance Influence on English Diachronic Morpho-Syntax: A Case of Historical Written Contact”</div></div></div>
+          <div class="slot"><div class="time">16:20</div><div><span class="tag young">Young researcher</span><div><strong>Vassilis Symeonidis</strong> — “Dynamic Complexity in Grammaticalization: A Corpus-Based Model of English Semi-Modals”</div></div></div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="wrap">
+        <div class="sectionhead"><div><h2>Invited talks</h2><p>Two invited lectures from the University of Bucharest.</p></div></div>
+        <div class="grid2">
+          <article class="card"><p class="speaker">Alexandru Nicolae</p><p class="aff">University of Bucharest</p><p class="title">“The Syntax of Negation in Romanian from a Comparative Perspective”</p><div class="abs"><p>This talk offers an overview of the negation system of Romanian, arguing that negation provides a reliable diagnostic for key aspects of clause structure. Romanian is of special interest because it displays strict negative concord, preserves morphosyntactic distinctions among negative markers (clitic nu vs affixal ne-), and occupies a hybrid position at the intersection of Romance inheritance and Balkan areal convergence. The analysis combines synchronic and diachronic perspectives and situates Romanian within a comparative context, with emphasis on the Balkan Sprachbund.</p></div></article>
+          <article class="card"><p class="speaker">Adina Dragomirescu</p><p class="aff">University of Bucharest</p><p class="title">“The Syntax of Istro-Romanian: Between Romance and Slavonic”</p><div class="abs"><p>This talk examines the syntax of Istro-Romanian, an endangered Romance variety spoken in Istria, within the context of intense contact with the Čakavian dialect of Croatian. Its structural grammar represents a unique intersection between archaic Romance inheritance and Slavonic syntactic reinforcement. Features like interpolation and auxiliary inversion reveal a relaxed V2 grammar where the verb moves to the C-domain. While contact with Croatian did not completely dictate these structures, it reinforced overlapping syntactic options that disappear in standard Romance languages.</p></div></article>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="wrap">
+        <div class="sectionhead"><div><h2>Young researchers</h2><p>MA seminar contributions from doctoral, postdoctoral, and other early-stage researchers.</p></div></div>
+        <div class="youngwrap">
+          <article class="ycard"><p class="yname">Maria Episkopou</p><p class="ytitle">“Beowulf, its translations and the diachronic importance of storytelling”</p><p class="ytext">The presentation revolves around the language used in the epic of Beowulf and what it reveals about the era of both the original oral form and the manuscript. It also examines the role of kennings and other special forms, asking how translators have diachronically dealt with such elements and what their choices may show.</p></article>
+          <article class="ycard"><p class="yname">Georgia Stavrianopoulou</p><p class="ytitle">“From Abject to Subject: The Diachrony of Monstrous Frames in Fairytale Retellings”</p><p class="ytext">Drawing on Frame Theory and fairytale studies, this presentation explores how contemporary retellings reframe monstrous figures as emotional beings and romantically desirable subjects.</p></article>
+          <article class="ycard"><p class="yname">Anastasia Tsiropina</p><p class="ytitle">“The diachrony of dative Object-Experiencer psych-verb constructions”</p><p class="ytext">The study traces the development of dative object-experiencer psych-verbs in Greek diachrony using historical retranslations of Ancient Greek drama and compares the Greek findings with Modern English retranslations.</p></article>
+          <article class="ycard"><p class="yname">Eleni Plakoutsi</p><p class="ytitle">“Byzantine high and low registers: challenges for Early Medieval Greek studies”</p><p class="ytext">The talk discusses the low prestige of Byzantine literature, diglossia, and the lack of reliable editions, and the problems these issues create for diachronic study.</p></article>
+          <article class="ycard"><p class="yname">Sophia Chionidi</p><p class="ytitle">“Computational Approaches to the Romance Influence on English Diachronic Morpho-Syntax: A Case of Historical Written Contact”</p><p class="ytext">This talk examines written language contact in medieval England and discusses computational tools such as Python for extracting, cleaning, and visualizing diachronic linguistic data.</p></article>
+          <article class="ycard"><p class="yname">Vassilis Symeonidis</p><p class="ytitle">“Dynamic Complexity in Grammaticalization: A Corpus-Based Model of English Semi-Modals”</p><p class="ytext">The presentation explores how grammatical complexity changes over time during grammaticalization and introduces a corpus-based computational model of dynamic complexity.</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="close">
+      <div class="wrap inner">
+        <div><h3>After the workshop</h3><p>Ice cream and/or coffee at Zografou.</p></div>
+        <div class="pill">See you there</div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap foot">
+      <div>Glossa Contact Lab · NKUA</div>
+      <div><a href="https://athdgc.github.io/GlossaContactLab/">https://athdgc.github.io/GlossaContactLab/</a></div>
+    </div>
+  </footer>
+</body>
+</html>
