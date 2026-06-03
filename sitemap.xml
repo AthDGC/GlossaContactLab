@@ -1,9 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-        <loc>https://nlavidas.github.io/GlossaContactLab/</loc>
-        <lastmod>2025-11-11</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
+  <url>
+    <loc>https://athdgc.github.io/glossacontactlab/working-papers.html</loc>
+    <lastmod>2026-06-03T20:07:34.667Z</lastmod>
+  </url>
+  <url>
+    <loc>https://athdgc.github.io/glossacontactlab/research.html</loc>
+    <lastmod>2026-06-03T19:47:24.547Z</lastmod>
+  </url>
+  <url>
+    <loc>https://athdgc.github.io/glossacontactlab/news.html</loc>
+    <lastmod>2026-06-03T20:07:49.261Z</lastmod>
+  </url>
+  <url>
+    <loc>https://athdgc.github.io/glossacontactlab/about.html</loc>
+    <lastmod>2026-06-03T19:46:11.910Z</lastmod>
+  </url>
+  <url>
+    <loc>https://athdgc.github.io/glossacontactlab/index.html</loc>
+    <lastmod>2026-06-03T19:45:49.518Z</lastmod>
+  </url>
+  <url>
+    <loc>https://athdgc.github.io/glossacontactlab/papers/01-athdgc-launch.html</loc>
+    <lastmod>2026-06-03T19:46:57.491Z</lastmod>
+  </url>
+  <url>
+    <loc>https://athdgc.github.io/glossacontactlab/team.html</loc>
+    <lastmod>2026-06-03T19:47:06.660Z</lastmod>
+  </url>
 </urlset>

@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="GlossaContactLab is a research initiative at NKUA studying language contact, diachronic linguistics, and computational methods for historical languages. Hosts the Working Papers series (digital edition).">
 
-<title>GlossaContactLab</title>
+<title>News – GlossaContactLab</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -94,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Lab</span></a>
   </li>  
   <li class="nav-item">
@@ -114,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Team</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./news.html"> 
+    <a class="nav-link active" href="./news.html" aria-current="page"> 
 <span class="menu-text">News</span></a>
   </li>  
 </ul>
@@ -146,15 +145,10 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">GlossaContactLab</h1>
-<p class="subtitle lead">Language contact, diachronic linguistics, computational philology - at the National and Kapodistrian University of Athens</p>
+<h1 class="title">News</h1>
+<p class="subtitle lead">Lab announcements, releases, events</p>
 </div>
 
-<div>
-  <div class="description">
-    GlossaContactLab is a research initiative at NKUA studying language contact, diachronic linguistics, and computational methods for historical languages. Hosts the Working Papers series (digital edition).
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -169,52 +163,27 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="what-the-lab-is" class="level2">
-<h2 class="anchored" data-anchor-id="what-the-lab-is">What the lab is</h2>
-<p><strong>GlossaContactLab</strong> is a research initiative hosted at the <strong>National and Kapodistrian University of Athens (NKUA)</strong>, Division of Language-Linguistics, Department of English Language and Literature, School of Philosophy. The lab brings together work on:</p>
+<section id="athdgc-v0.4.0-minted-on-zenodo" class="level2">
+<h2 class="anchored" data-anchor-id="athdgc-v0.4.0-minted-on-zenodo">2026-05-29 - AthDGC v0.4.0 minted on Zenodo</h2>
+<p>The AthDGC platform source-code snapshot reached Zenodo as v0.4.0 with concept DOI <a href="https://doi.org/10.5281/zenodo.20439182">10.5281/zenodo.20439182</a>. The launch report publishes as <a href="./papers/01-athdgc-launch.html"><strong>WP-01</strong> in the GlossaContactLab Working Papers, digital edition</a>.</p>
+</section>
+<section id="hugging-face-mirror-pypi-stub-live" class="level2">
+<h2 class="anchored" data-anchor-id="hugging-face-mirror-pypi-stub-live">2026-06-03 - Hugging Face mirror + PyPI stub live</h2>
+<p>The <code>AthDGC</code> Hugging Face organization is live at <a href="https://huggingface.co/AthDGC" class="uri">https://huggingface.co/AthDGC</a>, with three placeholder model repos:</p>
 <ul>
-<li><strong>language contact</strong> - how languages affect each other under sustained bilingual or multilingual conditions, from Indo-European antiquity to the present;</li>
-<li><strong>diachronic linguistics</strong> - the systematic study of language change across centuries and millennia, with Greek as the canonical reference language;</li>
-<li><strong>computational philology</strong> - dependency-parsed historical corpora (PROIEL XML 2.0), cross-lingual alignment, syntactic-feature classification of diachronic stages.</li>
+<li><code>AthDGC/grc_byz_proiel</code></li>
+<li><code>AthDGC/grc_lbem_proiel</code></li>
+<li><code>AthDGC/grc_mod_proiel</code></li>
 </ul>
-<p>The lab is led by <strong>Prof. Nikolaos Lavidas</strong>.</p>
+<p>The full weight payloads ship at the v0.5 audit-fix release. In parallel, the PyPI package <code>athdgc-tools</code> reserves the name with a stub release <code>0.4.0.dev0</code> at <a href="https://pypi.org/project/athdgc-tools/" class="uri">https://pypi.org/project/athdgc-tools/</a>.</p>
 </section>
-<section id="what-we-publish" class="level2">
-<h2 class="anchored" data-anchor-id="what-we-publish">What we publish</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Series</th>
-<th>Format</th>
-<th>Scope</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong><a href="./working-papers.html">Working Papers, digital edition</a></strong></td>
-<td>HTML + .docx</td>
-<td>open-access pre-prints and platform launch reports from lab members and affiliates</td>
-</tr>
-<tr class="even">
-<td><strong>Research outputs</strong></td>
-<td>data / code / corpora</td>
-<td>open datasets, software, and dependency-parsed corpora released under permissive licences</td>
-</tr>
-</tbody>
-</table>
+<section id="forthcoming---athdgc-v0.5-release" class="level2">
+<h2 class="anchored" data-anchor-id="forthcoming---athdgc-v0.5-release">Forthcoming - AthDGC v0.5 release</h2>
+<p>The next AthDGC corpus release is the v0.5 audit-fix pass: clean re-annotation of the existing Greek periods after the Stanza-introduced errors are corrected at scale on GRNET ARIS, plus the Classical Armenian editorial fix on the <code>xcl_proiel</code> pipeline. Ship date will be announced when the audit pass is verified.</p>
 </section>
-<section id="featured-platform" class="level2">
-<h2 class="anchored" data-anchor-id="featured-platform">Featured platform</h2>
-<p><a href="https://athdgc.github.io"><strong>AthDGC - Athens Diachronic Glossa Chronos</strong></a> - the lab's flagship computational platform. PROIEL-XML 2.0 dependency-parsed treebank of the entire Greek language (Homeric through Modern), with verse-level cross-lingual alignment to Latin, Gothic, Old Church Slavonic, and Classical Armenian. v0.7 expands to Sanskrit, Old English, Avestan, Old Persian, and Ukrainian. Fourteen open-source modules. The launch report is <a href="./papers/01-athdgc-launch.html">Working Paper 01</a> of this series.</p>
-</section>
-<section id="affiliation-block" class="level2">
-<h2 class="anchored" data-anchor-id="affiliation-block">Affiliation block</h2>
-<p>National and Kapodistrian University of Athens (NKUA), Division of Language-Linguistics, Department of English Language and Literature, School of Philosophy.</p>
-<p>Contact: <a href="mailto:nlavidas@enl.uoa.gr">nlavidas@enl.uoa.gr</a>.</p>
-</section>
-<section id="funding" class="level2">
-<h2 class="anchored" data-anchor-id="funding">Funding</h2>
-<p>Funded by the <strong>Hellenic Foundation for Research and Innovation (HFRI)</strong> under the 3rd Call for HFRI Research Projects to support Post-Doctoral Researchers, <strong>Project No. 20577</strong>; with complementary support from the <strong>Greece 2.0 National Recovery and Resilience Plan</strong>. Compute via <strong>GRNET ARIS</strong> (Greek national HPC), allocation <code>pa260305</code>. Project: <strong>CVL-CDSAML</strong> - <em>A Corpus-based Valency Lexicon for a Contrastive and Diachronic Study of Ancient and Medieval Languages</em>.</p>
+<section id="autumn-2026---kedivim-course" class="level2">
+<h2 class="anchored" data-anchor-id="autumn-2026---kedivim-course">Autumn 2026 - KEDIVIM course</h2>
+<p>NKUA KEDIVIM continuing-education course <strong>"Ψηφιακά Εργαλεία για τη Διαχρονική Ανάλυση της Γλώσσας / Digital Tools for the Diachronic Analysis of Language"</strong>. Director: Prof. Nikolaos Lavidas. Course landing page: <a href="https://athdgc.github.io/training.html" class="uri">https://athdgc.github.io/training.html</a>. Body text, fees, and certificate code on the official KEDIVIM listing closer to term start.</p>
 
 
 </section>
@@ -628,7 +597,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
 <p>Division of Language-Linguistics, Department of English Language and Literature, School of Philosophy</p>
-<div class="toc-actions"><ul><li><a href="https://github.com/AthDGC/glossacontactlab/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/AthDGC/glossacontactlab/blob/main/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div>
+<div class="toc-actions"><ul><li><a href="https://github.com/AthDGC/glossacontactlab/edit/main/news.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/AthDGC/glossacontactlab/blob/main/news.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p><a href="https://glossacontactlab.github.io">glossacontactlab.github.io</a></p>
 </div>

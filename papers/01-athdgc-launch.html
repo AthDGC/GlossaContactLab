@@ -6,9 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="GlossaContactLab is a research initiative at NKUA studying language contact, diachronic linguistics, and computational methods for historical languages. Hosts the Working Papers series (digital edition).">
+<meta name="author" content="Nikolaos Lavidas">
+<meta name="dcterms.date" content="2026-05-29">
+<meta name="keywords" content="diachronic linguistics, ancient Greek, Byzantine Greek, Modern Greek, Indo-European, PROIEL, dependency treebank, cross-lingual alignment, argument structure, retranslation">
 
-<title>GlossaContactLab</title>
+<title>WP-01 - AthDGC: An Open Diachronic Greek Treebank with Indo-European Parallels – GlossaContactLab</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -24,27 +26,62 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./assets/favicon.svg" rel="icon" type="image/svg+xml">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-4f28ba486269c24c37d6df9a1cf56ebb.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-739c84139b13f6cf8698549b638f01c8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../assets/favicon.svg" rel="icon" type="image/svg+xml">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-4f28ba486269c24c37d6df9a1cf56ebb.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-739c84139b13f6cf8698549b638f01c8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,7 +110,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="themes/lavidas-extras.css">
+<link rel="stylesheet" href="../themes/lavidas-extras.css">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light">
@@ -83,7 +120,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">GlossaContactLab</span>
     </a>
   </div>
@@ -94,27 +131,27 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Lab</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./working-papers.html"> 
+    <a class="nav-link" href="../working-papers.html"> 
 <span class="menu-text">Working Papers</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html"> 
+    <a class="nav-link" href="../research.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./team.html"> 
+    <a class="nav-link" href="../team.html"> 
 <span class="menu-text">Team</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./news.html"> 
+    <a class="nav-link" href="../news.html"> 
 <span class="menu-text">News</span></a>
   </li>  
 </ul>
@@ -146,75 +183,123 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">GlossaContactLab</h1>
-<p class="subtitle lead">Language contact, diachronic linguistics, computational philology - at the National and Kapodistrian University of Athens</p>
+<h1 class="title">WP-01 - AthDGC: An Open Diachronic Greek Treebank with Indo-European Parallels</h1>
+<p class="subtitle lead">Platform launch report - GlossaContactLab Working Papers, digital edition</p>
 </div>
 
-<div>
-  <div class="description">
-    GlossaContactLab is a research initiative at NKUA studying language contact, diachronic linguistics, and computational methods for historical languages. Hosts the Working Papers series (digital edition).
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Nikolaos Lavidas <a href="mailto:nlavidas@enl.uoa.gr" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
   </div>
-</div>
-
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            National and Kapodistrian University of Athens (NKUA), Division of Language-Linguistics, Department of English Language and Literature, School of Philosophy
+          </p>
+      </div>
+  </div>
 
 <div class="quarto-title-meta">
 
-    
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 29, 2026</p>
+    </div>
+  </div>
   
     
   </div>
   
+<div>
+  <div class="abstract">
+    <div class="block-title">Abstract</div>
+    <p>AthDGC (“Athens-PROIEL”) is an open, end-to-end pipeline and dataset that provides the first continuously updated, dependency-parsed treebank of the entire Greek language - from Homeric and Archaic texts to Modern Greek - with cross-lingual alignment to Latin (Vulgate), Gothic (Wulfila), Old Church Slavonic (Marianus), and Classical Armenian via the verse-level cross-alignment of the New Testament. AthDGC follows the PROIEL XML 2.0 schema, uses the Stanford Stanza PROIEL-trained pipeline for annotation, and applies LaBSE sentence embeddings and multilingual-BERT attention for word-level alignment. As of v0.4, the corpus contains 89.9 M total rows, 4.08 M annotated Greek rows, and 6,861 NT-aligned Greek verses cross-aligned to four sister IE witnesses. The platform ships fourteen open-source modules under OSI-approved licences. This Working Paper is the canonical launch report for the AthDGC platform.</p>
+  </div>
+</div>
 
+<div>
+  <div class="keywords">
+    <div class="block-title">Keywords</div>
+    <p>diachronic linguistics, ancient Greek, Byzantine Greek, Modern Greek, Indo-European, PROIEL, dependency treebank, cross-lingual alignment, argument structure, retranslation</p>
+  </div>
+</div>
 
 </header>
 
 
-<section id="what-the-lab-is" class="level2">
-<h2 class="anchored" data-anchor-id="what-the-lab-is">What the lab is</h2>
-<p><strong>GlossaContactLab</strong> is a research initiative hosted at the <strong>National and Kapodistrian University of Athens (NKUA)</strong>, Division of Language-Linguistics, Department of English Language and Literature, School of Philosophy. The lab brings together work on:</p>
-<ul>
-<li><strong>language contact</strong> - how languages affect each other under sustained bilingual or multilingual conditions, from Indo-European antiquity to the present;</li>
-<li><strong>diachronic linguistics</strong> - the systematic study of language change across centuries and millennia, with Greek as the canonical reference language;</li>
-<li><strong>computational philology</strong> - dependency-parsed historical corpora (PROIEL XML 2.0), cross-lingual alignment, syntactic-feature classification of diachronic stages.</li>
-</ul>
-<p>The lab is led by <strong>Prof. Nikolaos Lavidas</strong>.</p>
+<section id="citation" class="level2">
+<h2 class="anchored" data-anchor-id="citation">Citation</h2>
+<blockquote class="blockquote">
+<p>Lavidas, N., Nikiforidou, K., Haug, D., Kulikov, L., Geka, V., Symeonidis, V., Michalareas, T., Chionidi, S., Tsiropina, A., Plakoutsi, E., Argyropoulos, E., &amp; the Athens Digital Glossa Chronos Research Network (2026). <em>AthDGC: An Open Diachronic Greek Treebank with Indo-European Parallels</em>. GlossaContactLab Working Papers, digital edition, WP-01. National and Kapodistrian University of Athens (NKUA). <a href="https://doi.org/10.5281/zenodo.20439182">10.5281/zenodo.20439182</a>.</p>
+</blockquote>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@techreport</span>{<span class="ot">lavidas2026athdgc</span>,</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">type</span>        = {GlossaContactLab Working Paper, digital edition},</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">number</span>      = {WP-01},</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>      = {Lavidas, Nikolaos and Nikiforidou, Kiki and Haug, Dag and Kulikov, Leonid and</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>                 Geka, Vassiliki and Symeonidis, Vassileios and Michalareas, Theodoros and</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>                 Chionidi, Sofia and Tsiropina, Anastasia and Plakoutsi, Eleni and</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>                 Argyropoulos, Evangelos and {Athens Digital Glossa Chronos Research Network}},</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>       = {{AthDGC}: An Open Diachronic Greek Treebank with Indo-European Parallels},</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>        = {2026},</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  <span class="dt">institution</span> = {National and Kapodistrian University of Athens (NKUA)},</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="dt">doi</span>         = {10.5281/zenodo.20439182}</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
-<section id="what-we-publish" class="level2">
-<h2 class="anchored" data-anchor-id="what-we-publish">What we publish</h2>
+<section id="full-paper" class="level2">
+<h2 class="anchored" data-anchor-id="full-paper">Full paper</h2>
+<p>The full text of this Working Paper - method, dataset description, open-access source provenance per period and per IE parallel, IE-parallel matrix, retelling and retranslation chains, tool licence matrix, reuse potential, access + format, acknowledgements - lives at the AthDGC public site:</p>
+<p><a href="https://athdgc.github.io/data_paper.html"><strong>Read the full launch report at athdgc.github.io/data_paper.html</strong></a></p>
+<p>The same source <code>.qmd</code> renders to HTML, <code>.docx</code>, and (when TinyTeX permits) PDF. This Working Papers entry mirrors the canonical text.</p>
+</section>
+<section id="platform-links" class="level2">
+<h2 class="anchored" data-anchor-id="platform-links">Platform links</h2>
 <table class="caption-top table">
 <thead>
 <tr class="header">
-<th>Series</th>
-<th>Format</th>
-<th>Scope</th>
+<th>Resource</th>
+<th>URL</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong><a href="./working-papers.html">Working Papers, digital edition</a></strong></td>
-<td>HTML + .docx</td>
-<td>open-access pre-prints and platform launch reports from lab members and affiliates</td>
+<td>Public showcase</td>
+<td><a href="https://athdgc.github.io" class="uri">https://athdgc.github.io</a></td>
 </tr>
 <tr class="even">
-<td><strong>Research outputs</strong></td>
-<td>data / code / corpora</td>
-<td>open datasets, software, and dependency-parsed corpora released under permissive licences</td>
+<td>Source code</td>
+<td><a href="https://github.com/AthDGC/Diachronic-Linguistics-Platform" class="uri">https://github.com/AthDGC/Diachronic-Linguistics-Platform</a></td>
+</tr>
+<tr class="odd">
+<td>Stanza checkpoints</td>
+<td><a href="https://huggingface.co/AthDGC" class="uri">https://huggingface.co/AthDGC</a> (3 model repos live; weights at v0.5)</td>
+</tr>
+<tr class="even">
+<td>PyPI toolkit</td>
+<td><a href="https://pypi.org/project/athdgc-tools/" class="uri">https://pypi.org/project/athdgc-tools/</a> (stub 0.4.0.dev0; full v0.5)</td>
+</tr>
+<tr class="odd">
+<td>Concept DOI</td>
+<td><a href="https://doi.org/10.5281/zenodo.20439182">10.5281/zenodo.20439182</a></td>
+</tr>
+<tr class="even">
+<td>KEDIVIM autumn 2026 course</td>
+<td><a href="https://athdgc.github.io/training.html" class="uri">https://athdgc.github.io/training.html</a></td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="featured-platform" class="level2">
-<h2 class="anchored" data-anchor-id="featured-platform">Featured platform</h2>
-<p><a href="https://athdgc.github.io"><strong>AthDGC - Athens Diachronic Glossa Chronos</strong></a> - the lab's flagship computational platform. PROIEL-XML 2.0 dependency-parsed treebank of the entire Greek language (Homeric through Modern), with verse-level cross-lingual alignment to Latin, Gothic, Old Church Slavonic, and Classical Armenian. v0.7 expands to Sanskrit, Old English, Avestan, Old Persian, and Ukrainian. Fourteen open-source modules. The launch report is <a href="./papers/01-athdgc-launch.html">Working Paper 01</a> of this series.</p>
+<section id="team" class="level2">
+<h2 class="anchored" data-anchor-id="team">Team</h2>
+<p>Prof. Nikolaos Lavidas (PI, NKUA), Prof. Emerita Kiki Nikiforidou (NKUA; Co-Editor, <em>Genres and Influential Texts</em> volume), Prof. Dag Haug (Oslo; PROIEL Project Director), Prof. Leonid Kulikov (Ghent; Diachronic typology, valency questionnaires), Dr. Vassiliki Geka (NKUA; Post-Doctoral Researcher; Co-Editor, <em>Genres and Influential Texts</em> volume), Dr. Vassileios Symeonidis (NKUA; Post-Doctoral Researcher), Dr. Theodoros Michalareas (NKUA; Post-Doctoral Researcher), Sofia Chionidi (NKUA; PhD Candidate), Anastasia Tsiropina (NKUA; PhD Candidate), Eleni Plakoutsi (NKUA; PhD Candidate), Evangelos Argyropoulos (NKUA; Research Assistant); and the Athens Digital Glossa Chronos Research Network as collective author.</p>
 </section>
-<section id="affiliation-block" class="level2">
-<h2 class="anchored" data-anchor-id="affiliation-block">Affiliation block</h2>
-<p>National and Kapodistrian University of Athens (NKUA), Division of Language-Linguistics, Department of English Language and Literature, School of Philosophy.</p>
-<p>Contact: <a href="mailto:nlavidas@enl.uoa.gr">nlavidas@enl.uoa.gr</a>.</p>
-</section>
-<section id="funding" class="level2">
-<h2 class="anchored" data-anchor-id="funding">Funding</h2>
-<p>Funded by the <strong>Hellenic Foundation for Research and Innovation (HFRI)</strong> under the 3rd Call for HFRI Research Projects to support Post-Doctoral Researchers, <strong>Project No. 20577</strong>; with complementary support from the <strong>Greece 2.0 National Recovery and Resilience Plan</strong>. Compute via <strong>GRNET ARIS</strong> (Greek national HPC), allocation <code>pa260305</code>. Project: <strong>CVL-CDSAML</strong> - <em>A Corpus-based Valency Lexicon for a Contrastive and Diachronic Study of Ancient and Medieval Languages</em>.</p>
+<section id="acknowledgements" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledgements">Acknowledgements</h2>
+<p>Funded by the <strong>Hellenic Foundation for Research and Innovation (HFRI)</strong> under the 3rd Call for HFRI Research Projects to support Post-Doctoral Researchers, <strong>Project No. 20577</strong>; with complementary support from the <strong>Greece 2.0 National Recovery and Resilience Plan</strong>. Compute supplied by <strong>GRNET ARIS</strong> (Greek national HPC), allocation <code>pa260305</code>. Funded project: <strong>CVL-CDSAML</strong> - <em>A Corpus-based Valency Lexicon for a Contrastive and Diachronic Study of Ancient and Medieval Languages</em>.</p>
 
 
 </section>
@@ -628,7 +713,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
 <p>Division of Language-Linguistics, Department of English Language and Literature, School of Philosophy</p>
-<div class="toc-actions"><ul><li><a href="https://github.com/AthDGC/glossacontactlab/edit/main/index.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/AthDGC/glossacontactlab/blob/main/index.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div>
+<div class="toc-actions"><ul><li><a href="https://github.com/AthDGC/glossacontactlab/edit/main/papers/01-athdgc-launch.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/AthDGC/glossacontactlab/blob/main/papers/01-athdgc-launch.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p><a href="https://glossacontactlab.github.io">glossacontactlab.github.io</a></p>
 </div>

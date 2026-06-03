@@ -1,0 +1,303 @@
+[
+  {
+    "objectID": "working-papers.html",
+    "href": "working-papers.html",
+    "title": "Working Papers, digital edition",
+    "section": "",
+    "text": "The GlossaContactLab Working Papers, digital edition is an open-access series self-published by the lab. Each paper carries:"
+  },
+  {
+    "objectID": "working-papers.html#series-metadata",
+    "href": "working-papers.html#series-metadata",
+    "title": "Working Papers, digital edition",
+    "section": "Series metadata",
+    "text": "Series metadata\n\n\n\nField\nValue\n\n\n\n\nSeries title\nGlossaContactLab Working Papers, digital edition\n\n\nHost institution\nNational and Kapodistrian University of Athens (NKUA), Division of Language-Linguistics, Department of English Language and Literature, School of Philosophy\n\n\nEditor\nProf. Nikolaos Lavidas\n\n\nScope\nlanguage contact, diachronic linguistics, computational philology\n\n\nLicence\nCC-BY-4.0 (narrative); per-artefact licences for data + code\n\n\nArchival home\nZenodo, with mirror at https://glossacontactlab.github.io\n\n\nSeries language\nEnglish (primary); Greek (selected)\n\n\nISSN\nnot yet assigned"
+  },
+  {
+    "objectID": "working-papers.html#published-papers",
+    "href": "working-papers.html#published-papers",
+    "title": "Working Papers, digital edition",
+    "section": "Published papers",
+    "text": "Published papers\n\n\n\nID\nTitle\nAuthor(s)\nYear\nDOI\n\n\n\n\nWP-01\nAthDGC: An Open Diachronic Greek Treebank with Indo-European Parallels\nLavidas, Nikiforidou, Haug, Kulikov, Geka, Symeonidis, Michalareas, Chionidi, Tsiropina, Plakoutsi, Argyropoulos & Athens Digital Glossa Chronos Research Network\n2026\n10.5281/zenodo.20439182"
+  },
+  {
+    "objectID": "working-papers.html#submissions-in-preparation",
+    "href": "working-papers.html#submissions-in-preparation",
+    "title": "Working Papers, digital edition",
+    "section": "Submissions in preparation",
+    "text": "Submissions in preparation\nAdditional Working Papers from the AthDGC research network are in preparation and will be announced here once they have a stable draft. Titles, authors, and release dates are confirmed in the announcement, not in advance."
+  },
+  {
+    "objectID": "working-papers.html#how-to-cite-a-working-paper",
+    "href": "working-papers.html#how-to-cite-a-working-paper",
+    "title": "Working Papers, digital edition",
+    "section": "How to cite a Working Paper",
+    "text": "How to cite a Working Paper\nPlain text:\n\n[Authors] ([Year]). [Title]. GlossaContactLab Working Papers, digital edition, WP-NN. National and Kapodistrian University of Athens (NKUA). [DOI].\n\nBibTeX template (see each paper for its filled-in entry):\n@techreport{lab2026WPnn,\n  type        = {GlossaContactLab Working Paper, digital edition},\n  number      = {WP-NN},\n  author      = {Authors},\n  title       = {Title},\n  year        = {2026},\n  institution = {National and Kapodistrian University of Athens (NKUA)},\n  doi         = {10.5281/zenodo.XXXXXXX}\n}"
+  },
+  {
+    "objectID": "working-papers.html#editorial-process",
+    "href": "working-papers.html#editorial-process",
+    "title": "Working Papers, digital edition",
+    "section": "Editorial process",
+    "text": "Editorial process\nThe series is author-archived. The editor reviews each submission for: scope match, Lavidasised style compliance, open-access source-chain compliance (no in-copyright republication), and PROIEL-XML 2.0 strictness where the paper introduces annotated corpora. Accepted papers are frozen on Zenodo and listed here in the order of acceptance."
+  },
+  {
+    "objectID": "working-papers.html#submitting",
+    "href": "working-papers.html#submitting",
+    "title": "Working Papers, digital edition",
+    "section": "Submitting",
+    "text": "Submitting\nLab members and AthDGC research-network affiliates can propose a paper via:\n\nIssue at https://github.com/glossacontactlab/working-papers/issues\nEmail: nlavidas@enl.uoa.gr"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "The lab's flagship computational platform. PROIEL-XML 2.0 dependency-parsed treebank of the entire Greek language (Homeric through Modern), with verse-level cross-lingual alignment to four IE witnesses at v0.4 and five more queued at v0.7.\n\n\n\nItem\nStatus\nURL\n\n\n\n\nPublic showcase\nlive\nhttps://athdgc.github.io\n\n\nSource repository\nlive\nhttps://github.com/AthDGC/Diachronic-Linguistics-Platform\n\n\nHugging Face mirror\nlive (3 model repos)\nhttps://huggingface.co/AthDGC\n\n\nPyPI package\nlive (stub)\nhttps://pypi.org/project/athdgc-tools/\n\n\nConcept DOI\nlive (v0.4.0)\n10.5281/zenodo.20439182"
+  },
+  {
+    "objectID": "research.html#athdgc-platform",
+    "href": "research.html#athdgc-platform",
+    "title": "Research",
+    "section": "",
+    "text": "The lab's flagship computational platform. PROIEL-XML 2.0 dependency-parsed treebank of the entire Greek language (Homeric through Modern), with verse-level cross-lingual alignment to four IE witnesses at v0.4 and five more queued at v0.7.\n\n\n\nItem\nStatus\nURL\n\n\n\n\nPublic showcase\nlive\nhttps://athdgc.github.io\n\n\nSource repository\nlive\nhttps://github.com/AthDGC/Diachronic-Linguistics-Platform\n\n\nHugging Face mirror\nlive (3 model repos)\nhttps://huggingface.co/AthDGC\n\n\nPyPI package\nlive (stub)\nhttps://pypi.org/project/athdgc-tools/\n\n\nConcept DOI\nlive (v0.4.0)\n10.5281/zenodo.20439182"
+  },
+  {
+    "objectID": "research.html#open-source-toolkit",
+    "href": "research.html#open-source-toolkit",
+    "title": "Research",
+    "section": "Open-source toolkit",
+    "text": "Open-source toolkit\nFourteen modules under OSI-approved licences. Highlights:\n\nLightSIDE-AthDGC - LightSIDE fork for PROIEL syntactic features (dependency arcs, argument-structure frames, morphology bundles). BSD-3-Clause + Apache-2.0.\nFine-tuned Stanza checkpoints - grc_byz_proiel, grc_lbem_proiel, grc_mod_proiel for diachronic Greek. Apache-2.0. Hosted at https://huggingface.co/AthDGC.\nPROIEL XML 2.0 validator (v0.5) - schema + relation-inventory linter. Apache-2.0.\nLavidasised style check (v0.5) - em-dash + AI-marker grep for repository PRs. Apache-2.0.\nQuarto template pack - the multi-output Quarto pack that builds athdgc.github.io and this lab site. MIT.\n\nFull module list: https://athdgc.github.io/tools.html."
+  },
+  {
+    "objectID": "research.html#open-access-corpus-inputs",
+    "href": "research.html#open-access-corpus-inputs",
+    "title": "Research",
+    "section": "Open-access corpus inputs",
+    "text": "Open-access corpus inputs\nEvery primary source text used by the lab is open-access (public domain, CC-BY, CC-BY-SA, or equivalent). Greek sources draw on Perseus Digital Library, Open Greek and Latin / First1K (Leipzig), SBL Greek NT, Tischendorf and Westcott-Hort, Rahlfs LXX via openscriptures.org, Papyri.info, Patrologia Graeca via Documenta Catholica Omnia, Bibliotheca Augustana, Anemi (UoC), and Wikisource el. IE parallels draw on Vulsearch + Latin Library, the Wulfila Project (University of Antwerp), TITUS (Frankfurt), Digilib Armenian, GRETIL (Goettingen), SARIT, TEAMS, the DOE corpus, and the National Library of Ukraine. Full per-period source map: https://athdgc.github.io/samples.html."
+  },
+  {
+    "objectID": "research.html#working-papers",
+    "href": "research.html#working-papers",
+    "title": "Research",
+    "section": "Working Papers",
+    "text": "Working Papers\nOpen-access pre-prints + platform launch reports self-published as the GlossaContactLab Working Papers, digital edition."
+  },
+  {
+    "objectID": "research.html#funding",
+    "href": "research.html#funding",
+    "title": "Research",
+    "section": "Funding",
+    "text": "Funding\nFunded by HFRI Project No. 20577 + Greece 2.0 National Recovery and Resilience Plan. Compute on GRNET ARIS. Project: CVL-CDSAML."
+  },
+  {
+    "objectID": "news.html",
+    "href": "news.html",
+    "title": "News",
+    "section": "",
+    "text": "The AthDGC platform source-code snapshot reached Zenodo as v0.4.0 with concept DOI 10.5281/zenodo.20439182. The launch report publishes as WP-01 in the GlossaContactLab Working Papers, digital edition."
+  },
+  {
+    "objectID": "news.html#athdgc-v0.4.0-minted-on-zenodo",
+    "href": "news.html#athdgc-v0.4.0-minted-on-zenodo",
+    "title": "News",
+    "section": "",
+    "text": "The AthDGC platform source-code snapshot reached Zenodo as v0.4.0 with concept DOI 10.5281/zenodo.20439182. The launch report publishes as WP-01 in the GlossaContactLab Working Papers, digital edition."
+  },
+  {
+    "objectID": "news.html#hugging-face-mirror-pypi-stub-live",
+    "href": "news.html#hugging-face-mirror-pypi-stub-live",
+    "title": "News",
+    "section": "2026-06-03 - Hugging Face mirror + PyPI stub live",
+    "text": "2026-06-03 - Hugging Face mirror + PyPI stub live\nThe AthDGC Hugging Face organization is live at https://huggingface.co/AthDGC, with three placeholder model repos:\n\nAthDGC/grc_byz_proiel\nAthDGC/grc_lbem_proiel\nAthDGC/grc_mod_proiel\n\nThe full weight payloads ship at the v0.5 audit-fix release. In parallel, the PyPI package athdgc-tools reserves the name with a stub release 0.4.0.dev0 at https://pypi.org/project/athdgc-tools/."
+  },
+  {
+    "objectID": "news.html#forthcoming---athdgc-v0.5-release",
+    "href": "news.html#forthcoming---athdgc-v0.5-release",
+    "title": "News",
+    "section": "Forthcoming - AthDGC v0.5 release",
+    "text": "Forthcoming - AthDGC v0.5 release\nThe next AthDGC corpus release is the v0.5 audit-fix pass: clean re-annotation of the existing Greek periods after the Stanza-introduced errors are corrected at scale on GRNET ARIS, plus the Classical Armenian editorial fix on the xcl_proiel pipeline. Ship date will be announced when the audit pass is verified."
+  },
+  {
+    "objectID": "news.html#autumn-2026---kedivim-course",
+    "href": "news.html#autumn-2026---kedivim-course",
+    "title": "News",
+    "section": "Autumn 2026 - KEDIVIM course",
+    "text": "Autumn 2026 - KEDIVIM course\nNKUA KEDIVIM continuing-education course \"Ψηφιακά Εργαλεία για τη Διαχρονική Ανάλυση της Γλώσσας / Digital Tools for the Diachronic Analysis of Language\". Director: Prof. Nikolaos Lavidas. Course landing page: https://athdgc.github.io/training.html. Body text, fees, and certificate code on the official KEDIVIM listing closer to term start."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "GlossaContactLab studies three intertwined research areas at the National and Kapodistrian University of Athens (NKUA).\n\n\nThe lab investigates how languages affect each other under sustained bilingual, multilingual, and translation-driven conditions. The empirical focus runs from Indo-European antiquity (Greek-Latin contact in the Hellenistic and Roman periods; Greek-Slavic contact in late antiquity and Byzantium) through Modern Greek sociolinguistic settings.\n\n\n\nThe lab tracks systematic patterns of language change across three millennia of Greek. Recurring themes: argument-structure shift, voice + aspect realisation, perfect periphrasis, negation morphology, the case system, and the diachronic typology of information structure.\n\n\n\nThe lab builds open computational infrastructure for historical languages: dependency-parsed corpora under the PROIEL XML 2.0 schema; cross-lingual sentence- + word-level alignment via LaBSE + AwesomeAlign; syntactic-feature classification of diachronic stages via the LightSIDE-AthDGC fork; reception-graph navigation for influential canonical texts (Iliad reception, NT patristic reception, LXX retranslation chains)."
+  },
+  {
+    "objectID": "about.html#scope",
+    "href": "about.html#scope",
+    "title": "About",
+    "section": "",
+    "text": "GlossaContactLab studies three intertwined research areas at the National and Kapodistrian University of Athens (NKUA).\n\n\nThe lab investigates how languages affect each other under sustained bilingual, multilingual, and translation-driven conditions. The empirical focus runs from Indo-European antiquity (Greek-Latin contact in the Hellenistic and Roman periods; Greek-Slavic contact in late antiquity and Byzantium) through Modern Greek sociolinguistic settings.\n\n\n\nThe lab tracks systematic patterns of language change across three millennia of Greek. Recurring themes: argument-structure shift, voice + aspect realisation, perfect periphrasis, negation morphology, the case system, and the diachronic typology of information structure.\n\n\n\nThe lab builds open computational infrastructure for historical languages: dependency-parsed corpora under the PROIEL XML 2.0 schema; cross-lingual sentence- + word-level alignment via LaBSE + AwesomeAlign; syntactic-feature classification of diachronic stages via the LightSIDE-AthDGC fork; reception-graph navigation for influential canonical texts (Iliad reception, NT patristic reception, LXX retranslation chains)."
+  },
+  {
+    "objectID": "about.html#methods",
+    "href": "about.html#methods",
+    "title": "About",
+    "section": "Methods",
+    "text": "Methods\nThe lab's working methods are:\n\nPROIEL-strict annotation. Every annotated corpus the lab releases uses the PROIEL XML 2.0 schema (Haug & Johndal 2008; Eckhoff et al. 2018) - no CoNLL-U, no UD label leakage. The PROIEL relation inventory is pred / sub / obj / iobj / obl / atr / adv / voc / aux / xcomp / comp / xobj / nonsub / coord / pred-nom / apos / parpred / expl.\nOpen-access source chain. Source texts come from public-domain or open-licence archives (Perseus, Open Greek and Latin / First1K, SBL GNT, Rahlfs LXX, Papyri.info, Patrologia Graeca via Documenta Catholica Omnia, TITUS, Wulfila Project, GRETIL, SARIT, TEAMS, National Library of Ukraine). The annotation layer is original to the lab and released under CC-BY-4.0.\nReproducible tools. Every analysis pipeline ships as source code under Apache-2.0 (or BSD / GPL where upstream requires).\nLavidasised writing style. All public artefacts follow Prof. Lavidas's published academic voice: no em-dashes, no AI-marker vocabulary, NKUA affiliation block in its canonical form."
+  },
+  {
+    "objectID": "about.html#history",
+    "href": "about.html#history",
+    "title": "About",
+    "section": "History",
+    "text": "History\nThe lab grows out of Prof. Lavidas's research programme on the diachrony of Greek and language contact (see The Diachrony of Written Language Contact: A Contrastive Approach, Brill 2022; Studying Language Change in the 21st Century: Theory and Methodologies, eds. Lavidas & Nikiforidou, Brill 2022). The computational infrastructure that powers the lab's open releases is funded by HFRI Project No. 20577 + Greece 2.0 NRRP, with compute on GRNET ARIS."
+  },
+  {
+    "objectID": "about.html#working-papers-digital-edition",
+    "href": "about.html#working-papers-digital-edition",
+    "title": "About",
+    "section": "Working Papers, digital edition",
+    "text": "Working Papers, digital edition\nThe lab self-publishes a continuously growing series of Working Papers. Each paper carries a citable identifier, an open licence, and a frozen Zenodo deposit. Authors are lab members or affiliates of the AthDGC research network."
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About",
+    "section": "Contact",
+    "text": "Contact\nProf. Nikolaos Lavidas Director, GlossaContactLab National and Kapodistrian University of Athens (NKUA), Division of Language-Linguistics, Department of English Language and Literature, School of Philosophy.\nEmail: nlavidas@enl.uoa.gr"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "GlossaContactLab",
+    "section": "",
+    "text": "GlossaContactLab is a research initiative hosted at the National and Kapodistrian University of Athens (NKUA), Division of Language-Linguistics, Department of English Language and Literature, School of Philosophy. The lab brings together work on:\n\nlanguage contact - how languages affect each other under sustained bilingual or multilingual conditions, from Indo-European antiquity to the present;\ndiachronic linguistics - the systematic study of language change across centuries and millennia, with Greek as the canonical reference language;\ncomputational philology - dependency-parsed historical corpora (PROIEL XML 2.0), cross-lingual alignment, syntactic-feature classification of diachronic stages.\n\nThe lab is led by Prof. Nikolaos Lavidas."
+  },
+  {
+    "objectID": "index.html#what-the-lab-is",
+    "href": "index.html#what-the-lab-is",
+    "title": "GlossaContactLab",
+    "section": "",
+    "text": "GlossaContactLab is a research initiative hosted at the National and Kapodistrian University of Athens (NKUA), Division of Language-Linguistics, Department of English Language and Literature, School of Philosophy. The lab brings together work on:\n\nlanguage contact - how languages affect each other under sustained bilingual or multilingual conditions, from Indo-European antiquity to the present;\ndiachronic linguistics - the systematic study of language change across centuries and millennia, with Greek as the canonical reference language;\ncomputational philology - dependency-parsed historical corpora (PROIEL XML 2.0), cross-lingual alignment, syntactic-feature classification of diachronic stages.\n\nThe lab is led by Prof. Nikolaos Lavidas."
+  },
+  {
+    "objectID": "index.html#what-we-publish",
+    "href": "index.html#what-we-publish",
+    "title": "GlossaContactLab",
+    "section": "What we publish",
+    "text": "What we publish\n\n\n\nSeries\nFormat\nScope\n\n\n\n\nWorking Papers, digital edition\nHTML + .docx\nopen-access pre-prints and platform launch reports from lab members and affiliates\n\n\nResearch outputs\ndata / code / corpora\nopen datasets, software, and dependency-parsed corpora released under permissive licences"
+  },
+  {
+    "objectID": "index.html#featured-platform",
+    "href": "index.html#featured-platform",
+    "title": "GlossaContactLab",
+    "section": "Featured platform",
+    "text": "Featured platform\nAthDGC - Athens Diachronic Glossa Chronos - the lab's flagship computational platform. PROIEL-XML 2.0 dependency-parsed treebank of the entire Greek language (Homeric through Modern), with verse-level cross-lingual alignment to Latin, Gothic, Old Church Slavonic, and Classical Armenian. v0.7 expands to Sanskrit, Old English, Avestan, Old Persian, and Ukrainian. Fourteen open-source modules. The launch report is Working Paper 01 of this series."
+  },
+  {
+    "objectID": "index.html#affiliation-block",
+    "href": "index.html#affiliation-block",
+    "title": "GlossaContactLab",
+    "section": "Affiliation block",
+    "text": "Affiliation block\nNational and Kapodistrian University of Athens (NKUA), Division of Language-Linguistics, Department of English Language and Literature, School of Philosophy.\nContact: nlavidas@enl.uoa.gr."
+  },
+  {
+    "objectID": "index.html#funding",
+    "href": "index.html#funding",
+    "title": "GlossaContactLab",
+    "section": "Funding",
+    "text": "Funding\nFunded by the Hellenic Foundation for Research and Innovation (HFRI) under the 3rd Call for HFRI Research Projects to support Post-Doctoral Researchers, Project No. 20577; with complementary support from the Greece 2.0 National Recovery and Resilience Plan. Compute via GRNET ARIS (Greek national HPC), allocation pa260305. Project: CVL-CDSAML - A Corpus-based Valency Lexicon for a Contrastive and Diachronic Study of Ancient and Medieval Languages."
+  },
+  {
+    "objectID": "papers/01-athdgc-launch.html",
+    "href": "papers/01-athdgc-launch.html",
+    "title": "WP-01 - AthDGC: An Open Diachronic Greek Treebank with Indo-European Parallels",
+    "section": "",
+    "text": "Lavidas, N., Nikiforidou, K., Haug, D., Kulikov, L., Geka, V., Symeonidis, V., Michalareas, T., Chionidi, S., Tsiropina, A., Plakoutsi, E., Argyropoulos, E., & the Athens Digital Glossa Chronos Research Network (2026). AthDGC: An Open Diachronic Greek Treebank with Indo-European Parallels. GlossaContactLab Working Papers, digital edition, WP-01. National and Kapodistrian University of Athens (NKUA). 10.5281/zenodo.20439182.\n\n@techreport{lavidas2026athdgc,\n  type        = {GlossaContactLab Working Paper, digital edition},\n  number      = {WP-01},\n  author      = {Lavidas, Nikolaos and Nikiforidou, Kiki and Haug, Dag and Kulikov, Leonid and\n                 Geka, Vassiliki and Symeonidis, Vassileios and Michalareas, Theodoros and\n                 Chionidi, Sofia and Tsiropina, Anastasia and Plakoutsi, Eleni and\n                 Argyropoulos, Evangelos and {Athens Digital Glossa Chronos Research Network}},\n  title       = {{AthDGC}: An Open Diachronic Greek Treebank with Indo-European Parallels},\n  year        = {2026},\n  institution = {National and Kapodistrian University of Athens (NKUA)},\n  doi         = {10.5281/zenodo.20439182}\n}"
+  },
+  {
+    "objectID": "papers/01-athdgc-launch.html#citation",
+    "href": "papers/01-athdgc-launch.html#citation",
+    "title": "WP-01 - AthDGC: An Open Diachronic Greek Treebank with Indo-European Parallels",
+    "section": "",
+    "text": "Lavidas, N., Nikiforidou, K., Haug, D., Kulikov, L., Geka, V., Symeonidis, V., Michalareas, T., Chionidi, S., Tsiropina, A., Plakoutsi, E., Argyropoulos, E., & the Athens Digital Glossa Chronos Research Network (2026). AthDGC: An Open Diachronic Greek Treebank with Indo-European Parallels. GlossaContactLab Working Papers, digital edition, WP-01. National and Kapodistrian University of Athens (NKUA). 10.5281/zenodo.20439182.\n\n@techreport{lavidas2026athdgc,\n  type        = {GlossaContactLab Working Paper, digital edition},\n  number      = {WP-01},\n  author      = {Lavidas, Nikolaos and Nikiforidou, Kiki and Haug, Dag and Kulikov, Leonid and\n                 Geka, Vassiliki and Symeonidis, Vassileios and Michalareas, Theodoros and\n                 Chionidi, Sofia and Tsiropina, Anastasia and Plakoutsi, Eleni and\n                 Argyropoulos, Evangelos and {Athens Digital Glossa Chronos Research Network}},\n  title       = {{AthDGC}: An Open Diachronic Greek Treebank with Indo-European Parallels},\n  year        = {2026},\n  institution = {National and Kapodistrian University of Athens (NKUA)},\n  doi         = {10.5281/zenodo.20439182}\n}"
+  },
+  {
+    "objectID": "papers/01-athdgc-launch.html#full-paper",
+    "href": "papers/01-athdgc-launch.html#full-paper",
+    "title": "WP-01 - AthDGC: An Open Diachronic Greek Treebank with Indo-European Parallels",
+    "section": "Full paper",
+    "text": "Full paper\nThe full text of this Working Paper - method, dataset description, open-access source provenance per period and per IE parallel, IE-parallel matrix, retelling and retranslation chains, tool licence matrix, reuse potential, access + format, acknowledgements - lives at the AthDGC public site:\nRead the full launch report at athdgc.github.io/data_paper.html\nThe same source .qmd renders to HTML, .docx, and (when TinyTeX permits) PDF. This Working Papers entry mirrors the canonical text."
+  },
+  {
+    "objectID": "papers/01-athdgc-launch.html#platform-links",
+    "href": "papers/01-athdgc-launch.html#platform-links",
+    "title": "WP-01 - AthDGC: An Open Diachronic Greek Treebank with Indo-European Parallels",
+    "section": "Platform links",
+    "text": "Platform links\n\n\n\nResource\nURL\n\n\n\n\nPublic showcase\nhttps://athdgc.github.io\n\n\nSource code\nhttps://github.com/AthDGC/Diachronic-Linguistics-Platform\n\n\nStanza checkpoints\nhttps://huggingface.co/AthDGC (3 model repos live; weights at v0.5)\n\n\nPyPI toolkit\nhttps://pypi.org/project/athdgc-tools/ (stub 0.4.0.dev0; full v0.5)\n\n\nConcept DOI\n10.5281/zenodo.20439182\n\n\nKEDIVIM autumn 2026 course\nhttps://athdgc.github.io/training.html"
+  },
+  {
+    "objectID": "papers/01-athdgc-launch.html#team",
+    "href": "papers/01-athdgc-launch.html#team",
+    "title": "WP-01 - AthDGC: An Open Diachronic Greek Treebank with Indo-European Parallels",
+    "section": "Team",
+    "text": "Team\nProf. Nikolaos Lavidas (PI, NKUA), Prof. Emerita Kiki Nikiforidou (NKUA; Co-Editor, Genres and Influential Texts volume), Prof. Dag Haug (Oslo; PROIEL Project Director), Prof. Leonid Kulikov (Ghent; Diachronic typology, valency questionnaires), Dr. Vassiliki Geka (NKUA; Post-Doctoral Researcher; Co-Editor, Genres and Influential Texts volume), Dr. Vassileios Symeonidis (NKUA; Post-Doctoral Researcher), Dr. Theodoros Michalareas (NKUA; Post-Doctoral Researcher), Sofia Chionidi (NKUA; PhD Candidate), Anastasia Tsiropina (NKUA; PhD Candidate), Eleni Plakoutsi (NKUA; PhD Candidate), Evangelos Argyropoulos (NKUA; Research Assistant); and the Athens Digital Glossa Chronos Research Network as collective author."
+  },
+  {
+    "objectID": "papers/01-athdgc-launch.html#acknowledgements",
+    "href": "papers/01-athdgc-launch.html#acknowledgements",
+    "title": "WP-01 - AthDGC: An Open Diachronic Greek Treebank with Indo-European Parallels",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nFunded by the Hellenic Foundation for Research and Innovation (HFRI) under the 3rd Call for HFRI Research Projects to support Post-Doctoral Researchers, Project No. 20577; with complementary support from the Greece 2.0 National Recovery and Resilience Plan. Compute supplied by GRNET ARIS (Greek national HPC), allocation pa260305. Funded project: CVL-CDSAML - A Corpus-based Valency Lexicon for a Contrastive and Diachronic Study of Ancient and Medieval Languages."
+  },
+  {
+    "objectID": "team.html",
+    "href": "team.html",
+    "title": "Team",
+    "section": "",
+    "text": "Prof. Nikolaos Lavidas National and Kapodistrian University of Athens (NKUA), Division of Language-Linguistics, Department of English Language and Literature, School of Philosophy. nlavidas@enl.uoa.gr"
+  },
+  {
+    "objectID": "team.html#director",
+    "href": "team.html#director",
+    "title": "Team",
+    "section": "",
+    "text": "Prof. Nikolaos Lavidas National and Kapodistrian University of Athens (NKUA), Division of Language-Linguistics, Department of English Language and Literature, School of Philosophy. nlavidas@enl.uoa.gr"
+  },
+  {
+    "objectID": "team.html#nkua-members",
+    "href": "team.html#nkua-members",
+    "title": "Team",
+    "section": "NKUA members",
+    "text": "NKUA members\n\nProf. Emerita Kiki Nikiforidou - NKUA · Co-Editor, Genres and Influential Texts volume\nDr. Vassiliki Geka - Post-Doctoral Researcher, NKUA · Co-Editor, Genres and Influential Texts volume\nDr. Vassileios Symeonidis - Post-Doctoral Researcher, NKUA\nDr. Theodoros Michalareas - Post-Doctoral Researcher, NKUA\nSofia Chionidi - PhD Candidate, NKUA\nAnastasia Tsiropina - PhD Candidate, NKUA\nEleni Plakoutsi - PhD Candidate, NKUA\nEvangelos Argyropoulos - Research Assistant, NKUA"
+  },
+  {
+    "objectID": "team.html#international-collaborators",
+    "href": "team.html#international-collaborators",
+    "title": "Team",
+    "section": "International collaborators",
+    "text": "International collaborators\n\nProf. Dag Haug - University of Oslo · PROIEL Project Director\nProf. Leonid Kulikov - Ghent University · Diachronic typology · Valency questionnaires"
+  },
+  {
+    "objectID": "team.html#research-network",
+    "href": "team.html#research-network",
+    "title": "Team",
+    "section": "Research network",
+    "text": "Research network\nWork published by the lab under the Athens Digital Glossa Chronos Research Network collective name lists the Network as a co-author alongside the named contributors above."
+  },
+  {
+    "objectID": "team.html#affiliation-block",
+    "href": "team.html#affiliation-block",
+    "title": "Team",
+    "section": "Affiliation block",
+    "text": "Affiliation block\nNational and Kapodistrian University of Athens (NKUA), Division of Language-Linguistics, Department of English Language and Literature, School of Philosophy."
+  },
+  {
+    "objectID": "team.html#funding",
+    "href": "team.html#funding",
+    "title": "Team",
+    "section": "Funding",
+    "text": "Funding\nFunded by the Hellenic Foundation for Research and Innovation (HFRI) under the 3rd Call for HFRI Research Projects to support Post-Doctoral Researchers, Project No. 20577; with complementary support from the Greece 2.0 National Recovery and Resilience Plan. Compute supplied by GRNET ARIS (Greek national HPC), allocation pa260305.\nFunded project: CVL-CDSAML - A Corpus-based Valency Lexicon for a Contrastive and Diachronic Study of Ancient and Medieval Languages."
+  }
+]
