@@ -2,30 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://athdgc.github.io/glossacontactlab/working-papers.html</loc>
-    <lastmod>2026-06-03T20:07:34.667Z</lastmod>
+    <lastmod>2026-06-05T19:03:36.485Z</lastmod>
   </url>
   <url>
-    <loc>https://athdgc.github.io/glossacontactlab/research.html</loc>
-    <lastmod>2026-06-03T19:47:24.547Z</lastmod>
+    <loc>https://athdgc.github.io/glossacontactlab/series.html</loc>
+    <lastmod>2026-06-10T19:12:19.798Z</lastmod>
+  </url>
+  <url>
+    <loc>https://athdgc.github.io/glossacontactlab/publications.html</loc>
+    <lastmod>2026-06-11T17:23:23.029Z</lastmod>
   </url>
   <url>
     <loc>https://athdgc.github.io/glossacontactlab/news.html</loc>
-    <lastmod>2026-06-03T20:07:49.261Z</lastmod>
-  </url>
-  <url>
-    <loc>https://athdgc.github.io/glossacontactlab/about.html</loc>
-    <lastmod>2026-06-03T19:46:11.910Z</lastmod>
+    <lastmod>2026-06-11T17:21:26.138Z</lastmod>
   </url>
   <url>
     <loc>https://athdgc.github.io/glossacontactlab/index.html</loc>
-    <lastmod>2026-06-03T19:45:49.518Z</lastmod>
+    <lastmod>2026-06-09T19:00:00.491Z</lastmod>
+  </url>
+  <url>
+    <loc>https://athdgc.github.io/glossacontactlab/about.html</loc>
+    <lastmod>2026-06-11T17:21:54.773Z</lastmod>
+  </url>
+  <url>
+    <loc>https://athdgc.github.io/glossacontactlab/events.html</loc>
+    <lastmod>2026-06-11T17:23:05.162Z</lastmod>
+  </url>
+  <url>
+    <loc>https://athdgc.github.io/glossacontactlab/journal.html</loc>
+    <lastmod>2026-06-11T17:23:37.765Z</lastmod>
   </url>
   <url>
     <loc>https://athdgc.github.io/glossacontactlab/papers/01-athdgc-launch.html</loc>
-    <lastmod>2026-06-03T19:46:57.491Z</lastmod>
+    <lastmod>2026-06-09T19:00:00.503Z</lastmod>
+  </url>
+  <url>
+    <loc>https://athdgc.github.io/glossacontactlab/research.html</loc>
+    <lastmod>2026-06-11T17:22:24.162Z</lastmod>
   </url>
   <url>
     <loc>https://athdgc.github.io/glossacontactlab/team.html</loc>
-    <lastmod>2026-06-03T19:47:06.660Z</lastmod>
+    <lastmod>2026-06-11T17:21:18.778Z</lastmod>
   </url>
 </urlset>
